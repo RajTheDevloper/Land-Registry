@@ -5,9 +5,9 @@
     margin-bottom: 10px;
     -webkit-tap-highlight-color: transparent; }
     #container #topSection {
-      background: url("https://www.aihp.in/wp-content/uploads/2017/06/faq-banner.png");
-      background-size: cover;
-      height: 50vh;
+      background: url("https://plus.unsplash.com/premium_photo-1687819872154-9d4fd3cb7cca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVscHxlbnwwfHwwfHx8MA%3D%3D");
+      background-size: auto;
+      height: 40vh;
       -webkit-transition: 0.3s;
       transition: 0.3s; }
     #container #searchSection {

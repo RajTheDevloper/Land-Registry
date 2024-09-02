@@ -87,9 +87,9 @@ export default class Login extends Component {
                     <div className="auth-wrapper">
                         <div className="auth-inner">
                             <h1>You are already registered.</h1>
-                            <Button href="/Seller/SellerDashboard" disabled={!this.state.seller} className="btn-block" style={{ margin: "2px", backgroundColor: "peru" }} >Seller Dashboard</Button>
-                            <br /><Button href="/admin/dashboard" disabled={!this.state.buyer} className="btn-block" style={{ margin: "2px", backgroundColor: "peru" }}>Buyer Dashboard</Button>
-                            <br /><Button href="/LI/LIdashboard" disabled={!this.state.landInspector} className="btn-block" style={{ margin: "2px", backgroundColor: "peru" }}>Land Inspector Dashboard</Button>
+                            <Button href="/Seller/SellerDashboard" disabled={!this.state.seller} className="btn-block" style={{ margin: "2px", backgroundColor: "c3aa60" }} >Seller Dashboard</Button>
+                            <br /><Button href="/admin/dashboard" disabled={!this.state.buyer} className="btn-block" style={{ margin: "2px", backgroundColor: "c3aa60" }}>Buyer Dashboard</Button>
+                            <br /><Button href="/LI/LIdashboard" disabled={!this.state.landInspector} className="btn-block" style={{ margin: "2px", backgroundColor: "c3aa60" }}>Land Inspector Dashboard</Button>
                         </div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ export default class Login extends Component {
         return (
             <div className="bodyC">
                 <a href="/Help" className="faq" style={{ borderRadius: "10%", textDecoration: "none", fontWeight: "bolder" }} >
-                    <h3 style={{ color: "wheat" }}>Help?</h3>
+                    <h3 style={{ color: "#cbc8c3" }}>Help?</h3>
                 </a>
                 <div className="img-wrapper">
                     <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
@@ -122,7 +122,7 @@ export default class Login extends Component {
                             <div class="form-group" style={{ color: "black" }}>
                                 <label class="control-label" for="Company" style={{ fontSize: "18px", padding: "2px" }}>Select Role</label>
                                 <select id="Company" class="form-control" name="Company" onChange={this.handleInputChange}>
-                                    <option selected="true" disabled="disabled">Select Role</option>
+                                    <option selected="true" disabled="disabled">Choose Here</option>
                                     <option value="Buyer">Buyer</option>
                                     <option value="Seller">Seller</option>
                                 </select>

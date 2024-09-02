@@ -167,8 +167,8 @@ class buyerProfile extends Component {
         <Row>
           <Col md="12">
             <FormGroup>
-              <label>Your Aadhar Document</label>
-              <div class="post-meta"><span class="timestamp"> <a href={`https://ipfs.io/ipfs/${buyer[3]}`} target="_blank">Here</a></span></div>
+              {/* <label>Your Aadhar Document</label>
+              <div class="post-meta"><span class="timestamp"> <a href={`https://ipfs.io/ipfs/${buyer[3]}`} >Here</a></span></div> */}
             </FormGroup>
           </Col>
         </Row>

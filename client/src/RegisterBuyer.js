@@ -153,7 +153,7 @@ class RegisterBuyer extends Component {
                 <div className="bodyC">
 
                     <div className="img-wrapper">
-                        <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
+                        <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" alt='bg' className="logo" />
                         <div className="wine-text-container">
                             <div className="site-title wood-text">Land Registry</div>
                         </div>
@@ -177,9 +177,10 @@ class RegisterBuyer extends Component {
         return (
             <div className="bodyC">
                 <div className="img-wrapper">
-                    <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
+                    <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" alt='logo' className="logo" />
                     <div className="wine-text-container">
                         <div className="site-title wood-text">Land Registry</div>
+                        <div><br></br></div>
                     </div>
                 </div>
                 <div className="auth-wrapper">
@@ -276,13 +277,12 @@ class RegisterBuyer extends Component {
                                 </FormGroup>
 
                                 <FormGroup>
-                                    <label>Add your Aadhar Card (PDF Format)</label>
-                                    <FormFile
-                                        id="File2"
-                                        onChange={this.captureDoc}
-                                    />
+                                    <label>Add your Aadhar Card (.PDF Format)</label><br></br>
+                                    {/* <FormFile
+                                        id="File2" onChange={this.captureDoc}
+                                    />  */}
+                                <a href={`https://rajthedevloper.github.io/IPFS_upload_file_Demo/`} target="_blank">Upload file</a>
                                 </FormGroup>
-
                                 <Button onClick={this.RegisterBuyer} className="button-vote">
                                     Register as Buyer
                                 </Button>

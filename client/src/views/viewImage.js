@@ -20,7 +20,7 @@ const drizzleOptions = {
 
 var verified;
 var row = [];
-var rowsIpfs = [];
+// var rowsIpfs = [];
 
 class viewImage extends Component {
   constructor(props) {
@@ -118,7 +118,7 @@ class viewImage extends Component {
             <div class="thumbnail">
               <div class="date">
                 <div class="day">{i}</div>
-              </div><img src={`https://ipfs.io/ipfs/${landImg}`} />
+              </div><img src={`https://ipfs.io/ipfs/${landImg}`} alt='Aadhar_Image' />
             </div>
 
             <div class="post-content">
@@ -127,7 +127,7 @@ class viewImage extends Component {
               <h2 class="sub_title">{rowsCity[i - 1]}, {rowsState[i - 1]}</h2>
               <p class="description">PID: {rowsPID[i - 1]}<br /> Survey No.: {rowsSurvey[i - 1]}</p>
               <div class="post-meta"><span class="timestamp">Price: ₹ {rowsPrice[i - 1]}</span></div>
-              <div class="post-meta"><span class="timestamp">View Verified Land  <a href={`https://ipfs.io/ipfs/${document}`} target="_blank">Document</a></span></div>
+              <div class="post-meta"><span class="timestamp">View Verified Land  <a href={`https://ipfs.io/ipfs/${document}`} target="_blank" rel="noreferrer">Document</a></span></div>
             </div>
           </div>
         </Col>)

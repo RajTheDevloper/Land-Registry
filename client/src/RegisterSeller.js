@@ -166,7 +166,9 @@ class RegisterSeller extends Component {
                     <img src="https://i.pinimg.com/originals/71/6e/00/716e00537e8526347390d64ec900107d.png" className="logo" />
                     <div className="wine-text-container">
                         <div className="site-title wood-text">Land Registry</div>
+                        <div><br></br> <br></br></div>
                     </div>
+                    
                 </div>
                 <div className="auth-wrapper">
                     <div className="auth-inner">
@@ -249,11 +251,12 @@ class RegisterSeller extends Component {
                                 </FormGroup>
 
                                 <FormGroup>
-                                    <label>Add your Aadhar Card (PDF Format)</label>
-                                    <FormFile
+                                    <label>Add your Aadhar Card (PDF Format)</label><br></br>
+                                    {/* <FormFile
                                         id="File2"
                                         onChange={this.captureDoc}
-                                    />
+                                    /> */}
+                                    <a href={`https://rajthedevloper.github.io/IPFS_upload_file_Demo/`} target="_blank">Upload file</a>
                                 </FormGroup>
 
 

@@ -19,7 +19,7 @@ const data = {
         },
         {
             title: "Where can I find this project source code?",
-            content: <p>You can find it in this Github Repository <a href="https://github.com/vrii14/SE-Project" >here.</a></p>,
+            content: <p>You can find it in this Github Repository <a href="https://rajthedevloper.github.io/Land-Registry/" >here.</a></p>,
         },
         {
             title: "What do I register for?",
@@ -70,8 +70,9 @@ export default function Help() {
             <div className="container">
                 <h1>Demo</h1>
                 <div className="embed-responsive embed-responsive-16by9">
-                    <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/6VLaAa8GNDc" allowfullscreen="true"></iframe>
-                </div>
+                    <iframe className="embed-responsive-item" src="https://rajthedevloper.github.io/Land-Registry/" allowfullscreen="true"></iframe>
+                    {/* <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/6VLaAa8GNDc" allowfullscreen="true"></iframe> */}
+                </div><br></br>
 
                 <div style={{ marginTop: "10px" }}>
                     <Faq
