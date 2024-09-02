@@ -5,13 +5,7 @@
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <a href="LICENSE"><img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green"></a>
 
-## Team Members:
 
-	Batch: T1
-	111803157  Mrunal Kotkar
-	111803168  Vrinda Ahuja
-    141903009  Divya Kharode
-	
 
 ## Project Description:
 
@@ -60,7 +54,7 @@ So the Land Registration system using blockchain is a distributed system that wi
 5. cd to the _client_ folder and run _npm install_.
 6. Run _npm start_.
 
-## [Project Demo Link](https://youtu.be/6VLaAa8GNDc)
+
 
 ## Some features of the application:-
 
@@ -95,6 +89,6 @@ View Profile(Before Verification)                  |             Edit Profile(Af
 
 ### Make sure to star the repository if you find it helpful!
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=vrii14.Land-Registration-with-Blockchain)
-<a href="https://github.com/vrii14/Land-Registration-with-Blockchain/stargazers"><img src="https://img.shields.io/github/stars/vrii14/Land-Registration-with-Blockchain?color=yellow" alt="Stars Badge"/></a>
-<a href="https://github.com/vrii14/Land-Registration-with-Blockchain/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vrii14/Land-Registration-with-Blockchain?color=2b9348"></a>
+<a href="https://github.com/RajTheDevloper/Land-Registry/stargazers"><img src="https://img.shields.io/github/stars/RajTheDevloper/Land-Registry?color=yellow" alt="Stars Badge"/></a>
+<a href="https://github.com/RajTheDevloper/Land-Registry/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RajTheDevloper/Land-Registry?color=2b9348"></a>
 
