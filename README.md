@@ -87,8 +87,9 @@ View Profile(Before Verification)                  |             Edit Profile(Af
 :---------------------------------:        |      :------------------------------:
 <img src="Screenshots/profile.png" height="200" width="100%">     |<img src="Screenshots/edit profile.png" height="200" width="80%">
 
-### Make sure to star the repository if you find it helpful!
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=vrii14.Land-Registration-with-Blockchain)
+#To get the code <a href="https://github.com/RajTheDevloper/Land-Registry">Click Here!!</a>
+
+### Make sure to star the repository if you find it helpful!!
+
 <a href="https://github.com/RajTheDevloper/Land-Registry/stargazers"><img src="https://img.shields.io/github/stars/RajTheDevloper/Land-Registry?color=yellow" alt="Stars Badge"/></a>
-<a href="https://github.com/RajTheDevloper/Land-Registry/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/RajTheDevloper/Land-Registry?color=2b9348"></a>
 
